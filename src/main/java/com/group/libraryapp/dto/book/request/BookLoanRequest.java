@@ -12,4 +12,9 @@ public class BookLoanRequest {
     public String getBookName() {
         return bookName;
     }
+
+    public BookLoanRequest(String userName, String bookName) {
+        this.userName = userName;
+        this.bookName = bookName;
+    }
 }
